@@ -57,7 +57,7 @@ const testimonials = [
     name: "María Elena",
     text: "Layo Ramses cambió mi vida completamente. Sus predicciones fueron exactas y su guía espiritual me ayudó a encontrar mi camino.",
     rating: 5,
-    service: "Tarot Egipcio",
+    service: "Tarot",
   },
   {
     name: "Carlos Montenegro",
@@ -196,12 +196,12 @@ export default function HomePage() {
                     20 años de experiencia
                   </span>{" "}
                   guiando almas perdidas hacia su verdadero destino. Las cartas
-                  egipcias, los astros y los rituales ancestrales revelan los
+                  Tarot, los astros y los rituales ancestrales revelan los
                   secretos que el universo guarda para ti.
                 </p>
                 <div className="hero-specialties grid grid-cols-2 md:grid-cols-4 gap-3 max-w-2xl mx-auto text-sm">
                   <div className="specialty-item">
-                    <span className="text-primary">✦</span> Tarot Egipcio
+                    <span className="text-primary">✦</span> Tarot
                   </div>
                   <div className="specialty-item">
                     <span className="text-accent">☾</span> Rituales Lunares

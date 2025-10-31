@@ -6,11 +6,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const services = [
   {
     icon: Eye,
-    title: "Lectura de Cartas del Tarot Egipcio",
+    title: "Lectura de Cartas del Tarot",
     description:
-      "Descubre los misterios de tu destino a través de las cartas sagradas. Con el poder ancestral del tarot egipcio, revelaré los secretos de tu pasado, presente y futuro. Cada carta cuenta una historia, cada símbolo guía tu camino hacia la verdad que buscas.",
+      "Descubre los misterios de tu destino a través de las cartas sagradas. Con el poder ancestral del tarot, revelaré los secretos de tu pasado, presente y futuro. Cada carta cuenta una historia, cada símbolo guía tu camino hacia la verdad que buscas.",
     image: "/images/amor-amarres.jpg",
-    alt: "Lectura de cartas del tarot egipcio",
+    alt: "Lectura de cartas del tarot",
   },
   {
     icon: Star,
