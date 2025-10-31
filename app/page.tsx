@@ -309,7 +309,7 @@ export default function HomePage() {
                 </p>
                 <p className="text-foreground leading-relaxed">
                   Cada consulta es un viaje sagrado hacia tu verdadero
-                  propósito, donde las cartas del tarot egipcio y la posición de
+                  propósito, donde las cartas del tarot y la posición de
                   los astros revelan los caminos que el destino ha trazado para
                   ti.
                 </p>
