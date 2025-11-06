@@ -111,7 +111,11 @@ export default function HomePage() {
   const [currentVideoId, setCurrentVideoId] = useState<string>("");
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/layoramses", "_blank");
+    window.open("https://wa.me/51918383729?text=Hola%20Layo%20Ramses%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20tu%20negocio.%20%C2%BFPodr%C3%ADas%20brindarme%20m%C3%A1s%20informaci%C3%B3n%20por%20favor%3F", "_blank");
+  };
+
+  const handlePhoneClick = () => {
+    window.open("tel:+51975922223", "_self");
   };
 
   const handleVideoPlay = (videoId: string) => {
@@ -442,7 +446,10 @@ export default function HomePage() {
                     {service.description}
                   </p>
                   <div className="flex justify-center">
-                    <button className="cosmic-btn-small text-primary border border-primary px-6 py-2 rounded-full text-sm hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                    <button 
+                      onClick={handleWhatsAppClick}
+                      className="cosmic-btn-small text-primary border border-primary px-6 py-2 rounded-full text-sm hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                    >
                       Reservar
                     </button>
                   </div>
@@ -517,10 +524,13 @@ export default function HomePage() {
                 Respuesta inmediata
               </p>
             </div>
-            <div className="contact-method p-6 rounded-lg esoteric-border text-center">
+            <div 
+              onClick={handlePhoneClick}
+              className="contact-method p-6 rounded-lg esoteric-border text-center cursor-pointer hover:bg-card/50 transition-all duration-300"
+            >
               <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
               <h3 className="font-headline text-lg mb-2">Llamada</h3>
-              <p className="text-muted-foreground text-sm">Consulta directa</p>
+              <p className="text-muted-foreground text-sm">+51 975 922 223</p>
             </div>
           </div>
 
